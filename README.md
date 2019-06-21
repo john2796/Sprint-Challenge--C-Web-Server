@@ -1,4 +1,4 @@
-# Sprint Challenge: C Web Server Sprint
+# [x]Sprint Challenge: C Web Server Sprint
 
 This challenge allows you to practice the concepts and techniques learned over
 the past week and apply them in a concrete project. This Sprint explored
@@ -6,7 +6,7 @@ learning about the HTTP protocol, web servers, and caching. In your challenge
 this week, you will demonstrate proficiency by creating an application that
 performs web requests and prints the results on `stdout`.
 
-## Instructions
+## [x]Instructions
 
 **Read these instructions carefully. Understand exactly what is expected
 _before_ starting this Sprint Challenge.**
@@ -24,7 +24,7 @@ concepts and techniques in the _C Web Server_ module.
 
 You have three hours to complete this challenge. Plan your time accordingly.
 
-## Commits
+##[x] Commits
 
 Commit your code regularly and meaningfully. This helps both you (in case you
 ever need to return to old code for any number of reasons and your project
@@ -51,9 +51,11 @@ but since cURL is just a command line tool, it isn't capable of taking the HTML
 in the response and rendering it. 
 
 Your program for the Sprint Challenge will be a stripped down version of cURL
-that can only make GET requests. Your MVP implementation will need to be able to
-accept a URL as input, make a GET request, receive the response and print it all
-to `stdout`.
+that can only make GET requests. 
+Your MVP implementation will need to be able to
+accept a URL as input, 
+make a GET request, 
+receive the response and print it all to `stdout`.
 
 ### HTTP Requests
 
@@ -79,7 +81,7 @@ For this sprint challenge, all your code should be implemented in the `client.c`
 file. Whenever you update your code, rerun `make` in order to compile a new
 executable.
 
-## Minimum Viable Product
+## [x]Minimum Viable Product
 
 The steps that your client will need to execute are the following:
 
